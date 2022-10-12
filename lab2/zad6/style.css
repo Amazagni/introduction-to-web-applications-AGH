@@ -1,0 +1,21 @@
+.images-container{
+    display:flex;
+    height:700px;
+}
+.item-image{
+    position:relative;
+    overflow: hidden;
+    flex-grow: 1;
+    transition: all 1.5s;
+    
+}
+.item-image img{
+    position:absolute;
+    left:50%;
+    transform: translate(-50%,0);
+}
+
+
+.item-image:hover {
+    flex-grow:2.5;
+}

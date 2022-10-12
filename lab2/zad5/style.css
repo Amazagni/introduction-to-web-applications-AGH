@@ -1,0 +1,51 @@
+img{
+    height: 500px;
+    width: 700px;
+}
+#first{
+    height: 500px;
+    width: 700px;
+    position:relative;
+    overflow: hidden;
+}
+#text{
+    color:white;
+    height:0px;
+    width: 700px;
+    position:absolute;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: height 1s ease-out;
+    bottom: 0;
+    right: 0;
+}
+#first:hover  #text{
+    height: 20%;
+}
+
+#second{
+    height: 500px;
+    width: 700px;
+    position:relative;
+    overflow:hidden;
+}
+#icon{
+    padding-top:10%;
+    width:250px;
+    height: 250px;
+}
+#loupe{
+    height:0;
+    width: 700px;
+    position:absolute;
+    text-align: center;
+    background-color: rgba(255,255,255,0.7);
+    transition: height 2s ease-out;
+    bottom:0;
+    right:0;
+}
+#second:hover #loupe{
+    height: 100%;
+}
+
+
