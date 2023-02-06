@@ -1,0 +1,70 @@
+.subregionDiv{
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+}
+.subregionDiv p{
+    width: fit-content;
+}
+.countriesDiv{
+    background-color: white;
+}
+.countryDiv{
+    display:flex;
+
+}
+.countryName{
+    left: 0%;
+}
+.countryCapital{
+    left:30%;
+    position: absolute;
+}
+.countryPopulation{
+    left:60%;
+    position: absolute;
+}
+.countryArea{
+    left:90%;
+    position: absolute;
+}
+#header{
+
+    height: 50px;
+}
+.Name{
+    padding:20px;
+    background-color: gray;
+    left:0.5%;
+    position: absolute;
+}
+.Capital{
+    padding:20px;
+    background-color: lightgray;
+    position: absolute;
+    left:30%;
+}
+.Population{
+    padding:20px;
+    background-color: lightgray;
+    position:absolute;
+    left:60%;
+}
+.Area{
+    padding:20px;
+    background-color: lightgray;
+    position: absolute;
+    left:90%
+}
+#bottom{
+    display: flex;
+    justify-content: center;
+}
+#bottom button{
+    padding: 10px;
+    margin: 20px;
+    margin-bottom: 30px;
+}
+#bottom p{
+    margin-top: 30px;
+}

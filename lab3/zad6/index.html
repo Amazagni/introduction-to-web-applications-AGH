@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "style.css">
+    <script src = "script.js" defer></script>
+</head>
+<body>
+    <div id = "container">
+        <h1>KSIĄŻKA ADRESOWA</h1>
+        <div id = "elements">
+            <div class = "person">
+                <div class = "info">
+                    <p class = "name">Marcin Chudy</p>
+                    <p class = "phoneNumber">123454321</p>
+                </div>
+                <div id = "delete" class = "delete">
+                    <img src = "delete.png">
+                </div>
+            </div> 
+
+        </div>
+        <br>
+        <form id = "form" action="#">
+            <input placeholder = "Imię i nazwisko" type = "text"  id = "name" name = "name" required pattern="[A-Z]{1}[a-z]{1,}[ ]{1,}[A-Z]{1}[a-z]{1,}|[A-Z]{1}[a-z]{1,}[ ]{1,}[A-Z]{1}[a-z]{1,}[ ]{0,}[-]{1}[ ]{0,}[A-Z]{1}[a-z]{1,}">
+            <input placeholder = "Telefon" type = "text" id = "phone"  name = "phone" required pattern="[ ]{0,}[+]{1}[ ]{0,}[0-9]{1}[ ]{0,}[0-9]{1}[ ]{0,}[0-9]{1}[ ]{0,}[0-9]{1}[ ]{0,}[0-9]{1}[ ]{0,}[0-9]{1}[ ]{0,}[0-9]{1}[ ]{0,}[0-9]{1}[ ]{0,}[0-9]{1}[ ]{0,}[0-9]{1}[ ]{0,}[0-9]{1}[ ]{0,}[0-9]{1}[ ]{0,}|[ ]{0,}[0-9]{1}[ ]{0,}[0-9]{1}[ ]{0,}[0-9]{1}[ ]{0,}[0-9]{1}[ ]{0,}[0-9]{1}[ ]{0,}[0-9]{1}[ ]{0,}[0-9]{1}[ ]{0,}[0-9]{1}[ ]{0,}[0-9]{1}[ ]{0,}">  
+    <!--<input placeholder = "Telefon" type = "text" id = "phone"  name = "phone" required = "true" required pattern="[ ]{0,}[0-9]{1}[ ]{0,}[0-9]{1}[ ]{0,}[0-9]{1}[ ]{0,}[0-9]{1}[ ]{0,}[0-9]{1}[ ]{0,}[0-9]{1}[ ]{0,}[0-9]{1}[ ]{0,}[0-9]{1}[ ]{0,}[0-9]{1}[ ]{0,} | [ ]{0,}[+]{1}[ ]{0,}[0-9]{1}[ ]{0,}[0-9]{1}[ ]{0,}[0-9]{1}[ ]{0,}[0-9]{1}[ ]{0,}[0-9]{1}[ ]{0,}[0-9]{1}[ ]{0,}[0-9]{1}[ ]{0,}[0-9]{1}[ ]{0,}[0-9]{1}[ ]{0,}[0-9]{1}[ ]{0,}[0-9]{1}[ ]{0,}[0-9]{1}[ ]{0,}">
+    -->
+            <div id = "add">
+                <p>Dodaj</p>
+            </div>
+            
+
+        </form>
+    </div>    
+</body>
+</html>

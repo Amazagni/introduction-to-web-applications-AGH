@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src = "script.js" defer></script>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <div id = "container">
+        <form>
+            <label for = "firstPassword">New password
+                <img id = "firstButton" src = "data/hide.png">
+            </label>
+            <br>
+            <input type = "text" id = "firstPassword" name = "firstPassword" required>
+            <br><br>
+            <label for = "secondPassword">Repeat new password
+                <img id = "secondButton" src = "data/hide.png">
+            </label>
+            <br>
+            <input type = "text" id = "secondPassword" name = "secondPassword" required>
+        </form>
+        <h3>Password requirements</h3>
+        <div class = "requirements" id = "characters">
+            <img id = "charactersMark" src = "data/check-mark.png">
+            <p>at least 8 characters</p>
+        </div>
+        
+        <div class = "requirements" id = "specialCharacters">
+            <img id = "specialCharactersMark" src = "data/check-mark.png">
+            <p>at least 1 special character</p>
+        </div>
+        
+        <div class = "requirements" id = "capitalLetter">
+            <img id = "capitalLetterMark" src = "data/check-mark.png">
+            <p>at least 1 capital letter</p>
+        </div>
+            
+        <div class = "requirements" id = "digit">
+            <img id = "digitMark" src = "data/check-mark.png">
+            <p>at least one digit</p>
+        </div>
+        
+
+    </div>
+</body>
+</html>
