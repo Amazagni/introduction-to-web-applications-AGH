@@ -5,7 +5,7 @@ Repository containst HTML/CSS/JavaScript part of the course
 # Some more interesting exercises:
 
 
-Simple game
+Simple game <br\>
 https://user-images.githubusercontent.com/101255867/216970296-b35d1003-99be-4f63-b4c4-b86ab8c77bf6.mp4
 
 
